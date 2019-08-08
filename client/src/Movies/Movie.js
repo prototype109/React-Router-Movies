@@ -28,7 +28,7 @@ const Movie = (props) => {
 
   },[props.match.params.id]);
 
-  console.log('FUNCTION: ', props);
+  //console.log('FUNCTION: ', props);
   
   // Uncomment this only when you have moved on to the stretch goals
   const saveMovie = () => {
